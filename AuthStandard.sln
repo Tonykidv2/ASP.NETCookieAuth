@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthStandard", "AuthStandard\AuthStandard.csproj", "{AF493D1F-8290-42EB-A59C-8DC0818D72AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCore", "AuthCore\AuthCore.csproj", "{5C59E928-6CE6-4536-BE9F-CEE55FC996DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AF493D1F-8290-42EB-A59C-8DC0818D72AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF493D1F-8290-42EB-A59C-8DC0818D72AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF493D1F-8290-42EB-A59C-8DC0818D72AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C59E928-6CE6-4536-BE9F-CEE55FC996DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C59E928-6CE6-4536-BE9F-CEE55FC996DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C59E928-6CE6-4536-BE9F-CEE55FC996DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C59E928-6CE6-4536-BE9F-CEE55FC996DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
