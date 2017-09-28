@@ -22,6 +22,13 @@ namespace AuthCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            
+            //Adding Cooking Authentication
+            services.AddAuthentication("SuperCookieHW").AddCookie(cook =>
+            {
+                cook.LoginPath = "/account/signin";
+                cook.AccessDeniedPath = "/account/error";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +45,10 @@ namespace AuthCore
             }
 
             app.UseStaticFiles();
+
+            //Adding Authentication I added
+            app.UseAuthentication();
+
 
             app.UseMvc(routes =>
             {
