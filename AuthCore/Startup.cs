@@ -24,7 +24,7 @@ namespace AuthCore
             services.AddMvc();
             
             //Adding Cooking Authentication
-            services.AddAuthentication("SuperCookieHW").AddCookie(cook =>
+            services.AddAuthentication("SuperCookieHW").AddCookie("SuperCookieHW",cook =>
             {
                 cook.LoginPath = "/account/signin";
                 cook.AccessDeniedPath = "/account/error";
